@@ -114,7 +114,7 @@ while True:
     
     elif choice == 2:
         print()
-        url_for_scrap = input("===> Please enter url you want to scrap:")
+        url_for_scrap = input("===> https://collegedunia.com/coaching/west-bengal-institutes :")
         is_accessable = process_url_request(url_for_scrap)
         if is_accessable:
             scraped_data_packet = proccess_beautiful_soup_data(is_accessable)
